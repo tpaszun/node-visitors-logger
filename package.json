@@ -1,0 +1,29 @@
+{
+  "name": "visitors-logger",
+  "version": "0.0.0",
+  "description": "Express middleware logging visitors",
+  "keywords": [
+    "visitors",
+    "logger",
+    "express",
+    "middleware"
+  ],
+  "main": "./index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tpaszun/node-visitors-logger.git"
+  },
+  "author": {
+    "name": "Tymoteusz Paszun",
+    "email": "<tpaszun@gmail.com>"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "~1.11.0",
+    "express": "~3.2.6"
+  },
+  "readmeFile": "README.md"
+}
