@@ -23,7 +23,11 @@
   "license": "MIT",
   "devDependencies": {
     "mocha": "~1.11.0",
-    "express": "~3.2.6"
+    "express": "~3.2.6",
+    "env-config-loader": "0.0.2"
   },
-  "readmeFile": "README.md"
+  "readmeFile": "README.md",
+  "dependencies": {
+    "redis": "~0.8.3"
+  }
 }
