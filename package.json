@@ -1,6 +1,6 @@
 {
   "name": "visitors-logger",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Express middleware logging visitors",
   "keywords": [
     "visitors",
