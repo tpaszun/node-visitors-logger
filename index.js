@@ -1,2 +1,2 @@
 
-exports = module.exports = require('./lib/visitors-logger');
+exports = module.exports = require('./lib/visitorsLogger');

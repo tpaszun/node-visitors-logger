@@ -4,7 +4,7 @@
  * Time: 00:04
  */
 
-var visitorsLogger = require('../lib/visitors-logger');
+var visitorsLogger = require('../lib/visitorsLogger');
 
 describe('visitors-logger', function() {
 
