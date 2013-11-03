@@ -1,6 +1,6 @@
 {
   "name": "visitors-logger",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Express middleware logging visitors",
   "keywords": [
     "visitors",
@@ -24,7 +24,9 @@
   "devDependencies": {
     "mocha": "~1.11.0",
     "express": "~3.2.6",
-    "env-config-loader": "0.0.2"
+    "env-config-loader": "0.0.2",
+    "request": "~2.27.0",
+    "chai": "~1.8.1"
   },
   "readmeFile": "README.md",
   "dependencies": {

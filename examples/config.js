@@ -4,11 +4,9 @@
  * Time: 22:06
  */
 
-exports = module.exports;
-
 var configLoader = require('env-config-loader');
 
-exports = configLoader({
+exports = module.exports = configLoader({
   redis: {
     host: {
       'default': '127.0.0.1',

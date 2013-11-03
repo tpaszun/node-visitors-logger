@@ -4,17 +4,18 @@
  * Time: 00:39
  */
 
-var express = require('express')
+var http = require('http')
+  , express = require('express')
   , app = express()
-  , visitorsLogger = require('../lib/visitors-logger')
+  , visitorsLogger = require('../lib/visitorsLogger')
   , config = require('./config');
 
-app.set('port', process.env.PORT || 5000);
+app.set('port', process.env.PORT || 6000);
 app.use(visitorsLogger(config.redis));
 app.use(function(req, res) {
   res.send('OK');
 });
 
-app.listen(app.get('port'), function() {
+exports = module.exports = http.createServer(app).listen(app.get('port'), function() {
   console.log('Listening on port ' + app.get('port'));
 });
